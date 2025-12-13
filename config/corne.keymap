@@ -57,8 +57,8 @@
 
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans            &trans    &trans        &trans          &trans           &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans            &kp LEFT  &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &bt BT_CLR_ALL    &trans    &trans        &trans          &trans           &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans            &kp LEFT  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans  &trans
+&trans  &trans  &trans  &trans  &bt BT_NXT  &bt BT_CLR_ALL    &trans    &trans        &trans          &trans           &trans  &trans
                         &trans  &trans  &trans            &trans    &trans        &trans
             >;
         };
