@@ -1,13 +1,13 @@
 # ZMK Config
 
-Personal ZMK user configuration for a Corne split keyboard. This repo includes the keymap, Kconfig settings, and the West manifest that pins the ZMK version used in CI builds.
+Personal ZMK user configuration for a Corne split keyboard. 
 
 ## Keyboard Layout Diagrams
 
 ### Default Layer
 
+Alphas and core modifiers:
 ```
-Left hand                      Right hand
 ┌─────┬─────┬─────┬─────┬─────┬─────┐  ┌─────┬─────┬─────┬─────┬─────┬─────┐
 │ Esc │  Q  │  W  │  E  │  R  │  T  │  │  Y  │  U  │  I  │  O  │  P  │ Bsp │
 ├─────┼─────┼─────┼─────┼─────┼─────┤  ├─────┼─────┼─────┼─────┼─────┼─────┤
@@ -22,8 +22,8 @@ Left hand                      Right hand
 
 ### Lower Layer
 
+Numbers and symbols
 ```
-Left hand                      Right hand
 ┌─────┬─────┬─────┬─────┬─────┬─────┐  ┌─────┬─────┬─────┬─────┬─────┬─────┐
 │     │  1  │  2  │  3  │  4  │  5  │  │  6  │  7  │  8  │  9  │  0  │     │
 ├─────┼─────┼─────┼─────┼─────┼─────┤  ├─────┼─────┼─────┼─────┼─────┼─────┤
@@ -38,8 +38,8 @@ Left hand                      Right hand
 
 ### Raise Layer
 
+Function keys, arrows, and Bluetooth/bootloader actions
 ```
-Left hand                      Right hand
 ┌─────┬─────┬─────┬─────┬─────┬─────┐  ┌─────┬─────┬─────┬─────┬─────┬─────┐
 │     │ F1  │ F2  │ F3  │ F4  │ F5  │  │ F6  │ F7  │ F8  │ F9  │ F10 │     │
 ├─────┼─────┼─────┼─────┼─────┼─────┤  ├─────┼─────┼─────┼─────┼─────┼─────┤
@@ -51,9 +51,3 @@ Left hand                      Right hand
           │     │     │     │              │     │     │     │
           └─────┴─────┴─────┘              └─────┴─────┴─────┘
 ```
-
-## Layers
-
-- Default: alphas and core modifiers
-- Lower: numbers and symbols
-- Raise: function keys, arrows, and Bluetooth/bootloader actions
