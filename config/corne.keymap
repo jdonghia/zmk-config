@@ -32,8 +32,8 @@
 
             bindings = <
 &trans  &kp Q             &kp W               &kp E           &kp R               &kp T            &kp Y      &kp U        &kp I      &kp O    &kp P                  &trans
-&trans  &kp A             &kp S  &kp D  &kp F  &kp G            &kp H      &mt LEFT_COMMAND J        &mt LEFT_ALT K      &mt LEFT_CONTROL L    &mt LEFT_SHIFT SINGLE_QUOTE       &trans
-&trans  &mt LEFT_SHIFT Z  &mt LEFT_CONTROL X    &mt LEFT_ALT C  &mt LEFT_COMMAND V  &kp B            &kp N      &kp M        &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH  &trans
+&trans  &kp A             &kp S  &kp D  &kp F  &kp G            &kp H      &kp J                     &kp K               &kp L                 &kp SINGLE_QUOTE                  &trans
+&trans  &mt LEFT_SHIFT Z  &mt LEFT_CONTROL X    &mt LEFT_ALT C  &mt LEFT_COMMAND V  &kp B            &kp N      &mt LEFT_COMMAND M    &mt LEFT_ALT COMMA  &mt LEFT_CONTROL DOT  &mt LEFT_SHIFT SLASH  &trans
                                               &trans          &lt 2 ESCAPE        &kp BACKSPACE    &kp ENTER  &lt 1 SPACE  &trans
             >;
         };
