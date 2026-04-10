@@ -31,10 +31,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&trans  &kp Q             &kp W               &kp E           &kp R               &kp T            &kp Y      &kp U        &kp I      &kp O    &kp P                  &trans
-&trans  &kp A             &kp S  &kp D  &kp F  &kp G            &kp H      &kp J                     &kp K               &kp L                 &kp SINGLE_QUOTE                  &trans
-&trans  &mt LEFT_SHIFT Z  &mt LEFT_CONTROL X    &mt LEFT_ALT C  &mt LEFT_COMMAND V  &kp B            &kp N      &mt LEFT_COMMAND M    &mt LEFT_ALT COMMA  &mt LEFT_CONTROL DOT  &mt LEFT_SHIFT SLASH  &trans
-                                              &trans          &lt 2 ESCAPE        &kp BACKSPACE    &kp ENTER  &lt 1 SPACE  &trans
+&trans  &kp Q             &kp W               &kp E           &kp R               &kp T            &kp Y      &kp U               &kp I               &kp O                 &kp P                 &trans
+&trans  &kp A             &kp S               &kp D           &kp F               &kp G            &kp H      &kp J               &kp K               &kp L                 &kp SINGLE_QUOTE      &trans
+&trans  &mt LEFT_SHIFT Z  &mt LEFT_CONTROL X  &mt LEFT_ALT C  &mt LEFT_COMMAND V  &kp B            &kp N      &mt LEFT_COMMAND M  &mt LEFT_ALT COMMA  &mt LEFT_CONTROL DOT  &mt LEFT_SHIFT SLASH  &trans
+                                              &trans          &lt 2 ESCAPE        &kp BACKSPACE    &kp ENTER  &lt 1 SPACE         &trans
             >;
         };
 
@@ -48,10 +48,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp N1         &kp N2  &kp N3  &kp N4     &kp N5    &kp N6         &kp N7     &kp N8     &kp N9            &kp N0             &trans
-&trans  &kp SEMICOLON  &trans  &trans  &kp GRAVE  &trans    &trans         &trans     &trans     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
+&trans  &kp N1         &kp N2  &kp N3  &kp N4     &kp N5    &kp N6         &kp N7                  &kp N8              &kp N9                      &kp N0                       &trans
+&trans  &kp SEMICOLON  &trans  &trans  &kp GRAVE  &trans    &trans         &trans                  &trans              &kp LEFT_BRACKET            &kp RIGHT_BRACKET            &trans
 &trans  &trans         &trans  &trans  &trans     &trans    &kp BACKSLASH  &mt LEFT_COMMAND MINUS  &mt LEFT_ALT EQUAL  &mt LEFT_CONTROL LESS_THAN  &mt LEFT_SHIFT GREATER_THAN  &trans
-                               &trans  &trans     &trans    &trans         &trans     &trans
+                               &trans  &trans     &trans    &trans         &trans                  &trans
             >;
         };
 
@@ -67,7 +67,7 @@
             bindings = <
 &trans  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp C_PREV  &kp C_PLAY_PAUSE  &kp C_NEXT    &kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans           &trans  &trans
 &trans  &trans                &trans                &trans      &trans            &trans        &kp LEFT    &kp DOWN_ARROW     &kp UP_ARROW     &kp RIGHT_ARROW  &trans  &trans
-&trans  &trans                &trans                &trans      &bt BT_NXT        &bt BT_CLR    &kp UNDERSCORE  &mt LEFT_COMMAND PLUS  &mt LEFT_ALT LEFT_BRACE  &mt LEFT_CONTROL RIGHT_BRACE  &mt LEFT_SHIFT PIPE  &bootloader
+&trans  &trans                &trans                &trans      &bt BT_NXT        &bt BT_CLR    &trans      &trans             &trans           &trans           &trans  &bootloader
                                                     &trans      &trans            &trans        &trans      &trans             &trans
             >;
         };
