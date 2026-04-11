@@ -59,7 +59,7 @@
         };
 
         settings_layer {
-            bindings = <&mo 6>;
+            bindings = <&mo 0>;
             key-positions = <39 40>;
         };
     };
@@ -109,10 +109,10 @@
 
         fnc {
             bindings = <
-&trans  &kp C_BRIGHTNESS_DEC  &kp C_BRI_UP      &kp C_PREV      &kp C_PLAY_PAUSE  &kp C_NEXT    &kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans  &trans  &trans
-&trans  &sk LEFT_ALT          &sk LEFT_COMMAND  &sk LEFT_SHIFT  &sk LEFT_CONTROL  &trans        &trans      &trans             &trans           &trans  &trans  &trans
-&trans  &trans                &trans            &trans          &trans            &trans        &trans      &trans             &trans           &trans  &trans  &trans
-                                                &trans          &trans            &trans        &trans      &trans             &trans
+&kp  &kp           &kp               &kp             &kp               &kp    &kp  &kp N7        &kp N8        &kp N9        &kp N0  &kp
+&kp  &sk LEFT_ALT  &sk LEFT_COMMAND  &sk LEFT_SHIFT  &sk LEFT_CONTROL  &kp    &kp  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp     &kp
+&kp  &kp           &kp               &kp             &kp               &kp    &kp  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp N0  &kp
+                                     &kp             &kp               &kp    &kp  &kp           &kp
             >;
 
             label = "function_layer";
@@ -142,14 +142,13 @@
         };
 
         settings {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
-            >;
-
             label = "settings_layer";
+            bindings = <
+&trans  &kp C_BRIGHTNESS_DEC  &kp C_BRI_UP       &kp C_PREV       &kp C_PLAY_PAUSE  &kp C_NEXT    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp C_MUTE            &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans            &trans        &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans                &trans             &trans           &trans            &trans        &trans  &trans  &trans  &trans  &trans  &trans
+                                                 &trans           &trans            &trans        &trans  &trans  &trans
+            >;
         };
     };
 };
