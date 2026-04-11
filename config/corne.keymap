@@ -109,7 +109,7 @@
 
         fnc {
             bindings = <
-&kp  &kp           &kp               &kp             &kp               &kp    &kp  &kp N7        &kp N8        &kp N9        &kp N0  &kp
+&kp  &kp           &kp               &kp             &kp               &kp    &kp  &kp N7        &kp N8        &kp N9        &trans  &kp
 &kp  &sk LEFT_ALT  &sk LEFT_COMMAND  &sk LEFT_SHIFT  &sk LEFT_CONTROL  &kp    &kp  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp     &kp
 &kp  &kp           &kp               &kp             &kp               &kp    &kp  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp N0  &kp
                                      &kp             &kp               &kp    &kp  &kp           &kp
