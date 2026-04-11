@@ -98,10 +98,10 @@
 
         ext {
             bindings = <
-&trans  &kp ESCAPE    &trans            &trans          &trans            &trans    &trans     &trans            &trans          &trans            &kp CLCK      &trans
-&trans  &sk LEFT_ALT  &sk LEFT_COMMAND  &sk LEFT_SHIFT  &sk LEFT_CONTROL  &trans    &trans     &sk LEFT_CONTROL  &sk LEFT_SHIFT  &sk LEFT_COMMAND  &sk LEFT_ALT  &trans
-&trans  &trans        &trans            &trans          &trans            &trans    &trans     &kp BACKSPACE     &kp TAB         &trans            &trans        &trans
-                                        &trans          &trans            &trans    &kp ENTER  &mo 3             &trans
+&trans  &kp ESCAPE      &trans            &trans        &trans            &trans    &trans     &trans             &trans        &trans             &kp CLCK         &trans
+&trans  &sk LEFT_SHIFT  &sk LEFT_CONTROL  &sk LEFT_ALT  &sk LEFT_COMMAND  &trans    &trans     &sk RIGHT_COMMAND  &sk LEFT_ALT  &sk RIGHT_CONTROL  &sk RIGHT_SHIFT  &trans
+&trans  &trans          &trans            &trans        &trans            &trans    &trans     &kp BACKSPACE      &kp TAB       &trans             &trans           &trans
+                                          &trans        &trans            &trans    &kp ENTER  &mo 3              &trans
             >;
 
             label = "extend_layer";
