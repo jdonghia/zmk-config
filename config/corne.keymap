@@ -26,7 +26,7 @@
         };
 
         settings_layer {
-            bindings = <&mo 0>;
+            bindings = <&mo 1>;
             key-positions = <39 40>;
         };
     };
@@ -56,19 +56,19 @@
         sym1 {
             display-name = "symbols1_layer";
             bindings = <
-&trans  &kp NUMBER_1   &kp N2  &kp N3  &kp N4     &kp N5    &kp N6         &kp N7     &kp N8     &kp N9            &kp N0             &trans
-&trans  &kp SEMICOLON  &trans  &trans  &kp GRAVE  &trans    &trans         &trans     &trans     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
-&trans  &trans         &trans  &trans  &trans     &trans    &kp BACKSLASH  &kp MINUS  &kp EQUAL  &kp LESS_THAN     &kp GREATER_THAN   &trans
-                               &trans  &mo 3      &mo 4     &trans         &trans     &trans
+&trans  &kp NUMBER_1   &kp N2  &kp N3  &kp N4     &kp N5      &kp N6         &kp N7     &kp N8     &kp N9            &kp N0             &trans
+&trans  &kp SEMICOLON  &trans  &trans  &kp GRAVE  &trans      &kp LGUI       &kp LALT   &kp LCTRL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
+&trans  &trans         &trans  &trans  &trans     &kp LBKT    &kp BACKSLASH  &kp MINUS  &kp EQUAL  &kp LESS_THAN     &kp GREATER_THAN   &trans
+                               &trans  &trans     &trans      &trans         &trans     &trans
             >;
         };
 
         ext {
             bindings = <
-&trans  &kp ESCAPE      &trans            &trans        &trans            &trans    &trans     &trans         &trans   &trans     &kp CLCK  &trans
-&trans  &sk LEFT_SHIFT  &sk LEFT_CONTROL  &sk LEFT_ALT  &sk LEFT_COMMAND  &trans    &kp LEFT   &kp DOWN       &kp UP   &kp RIGHT  &trans    &trans
-&trans  &trans          &trans            &trans        &trans            &trans    &trans     &kp BACKSPACE  &kp TAB  &trans     &trans    &trans
-                                          &trans        &trans            &trans    &kp ENTER  &mo 3          &trans
+&trans  &kp ESCAPE  &trans  &trans     &trans    &trans      &trans     &trans         &trans   &trans     &kp CLCK  &trans
+&trans  &trans      &trans  &kp LCTRL  &kp LALT  &kp LGUI    &kp LEFT   &kp DOWN       &kp UP   &kp RIGHT  &trans    &trans
+&trans  &trans      &trans  &trans     &trans    &trans      &trans     &kp BACKSPACE  &kp TAB  &trans     &trans    &trans
+                            &trans     &trans    &trans      &kp ENTER  &mo 3          &trans
             >;
 
             label = "extend_layer";
@@ -91,7 +91,7 @@
 &trans  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp CARET  &kp AMPERSAND   &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
 &trans  &kp COLON        &trans       &trans    &kp TILDE   &trans         &trans     &trans          &trans        &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans
 &trans  &trans           &trans       &trans    &trans      &trans         &kp PIPE   &kp UNDERSCORE  &kp PLUS      &kp LESS_THAN         &kp GREATER_THAN       &trans
-                                      &trans    &mo 3       &mo 4          &trans     &trans          &trans
+                                      &trans    &trans      &trans         &trans     &trans          &trans
             >;
 
             label = "symbols2_layer";
