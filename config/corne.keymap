@@ -76,10 +76,10 @@
 
         fnc {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans          &trans          &trans        &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans          &trans          &trans        &trans     &trans  &trans
-                        &trans  &trans  &trans    &trans          &trans          &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
 
             label = "function_layer";
