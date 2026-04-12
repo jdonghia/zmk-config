@@ -20,13 +20,8 @@
     combos {
         compatible = "zmk,combos";
 
-        function_layer {
-            bindings = <&mo 4>;
-            key-positions = <37 38>;
-        };
-
         settings_layer {
-            bindings = <&mo 3>;
+            bindings = <&mo 4>;
             key-positions = <39 40>;
         };
     };
