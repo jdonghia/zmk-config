@@ -21,7 +21,7 @@
         compatible = "zmk,combos";
 
         settings_layer {
-            bindings = <&mo 4>;
+            bindings = <&mo 3>;
             key-positions = <39 40>;
         };
     };
@@ -67,17 +67,6 @@
             >;
 
             label = "extend_layer";
-        };
-
-        fnc {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans       &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans       &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &bootloader  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
-            >;
-
-            label = "function_layer";
         };
 
         settings {
