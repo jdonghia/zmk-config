@@ -65,9 +65,9 @@
 
         ext {
             bindings = <
-&trans  &kp ESCAPE      &trans            &trans        &trans            &trans    &trans     &trans         &trans   &trans  &kp CLCK  &trans
-&trans  &sk LEFT_SHIFT  &sk LEFT_CONTROL  &sk LEFT_ALT  &sk LEFT_COMMAND  &trans    &trans     &trans         &trans   &trans  &trans    &trans
-&trans  &trans          &trans            &trans        &trans            &trans    &trans     &kp BACKSPACE  &kp TAB  &trans  &trans    &trans
+&trans  &kp ESCAPE      &trans            &trans        &trans            &trans    &trans     &trans         &trans   &trans     &kp CLCK  &trans
+&trans  &sk LEFT_SHIFT  &sk LEFT_CONTROL  &sk LEFT_ALT  &sk LEFT_COMMAND  &trans    &kp LEFT   &kp DOWN       &kp UP   &kp RIGHT  &trans    &trans
+&trans  &trans          &trans            &trans        &trans            &trans    &trans     &kp BACKSPACE  &kp TAB  &trans     &trans    &trans
                                           &trans        &trans            &trans    &kp ENTER  &mo 3          &trans
             >;
 
