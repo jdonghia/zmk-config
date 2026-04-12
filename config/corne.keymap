@@ -21,12 +21,12 @@
         compatible = "zmk,combos";
 
         function_layer {
-            bindings = <&mo 3>;
+            bindings = <&mo 4>;
             key-positions = <37 38>;
         };
 
         settings_layer {
-            bindings = <&mo 4>;
+            bindings = <&mo 3>;
             key-positions = <39 40>;
         };
     };
@@ -75,16 +75,6 @@
         };
 
         fnc {
-            label = "function_layer";
-            bindings = <
-&trans  &kp C_BRIGHTNESS_DEC  &kp C_BRI_UP       &kp C_PREV       &kp C_PLAY_PAUSE  &kp C_NEXT    &trans  &trans  &trans  &trans  &trans       &trans
-&trans  &kp C_MUTE            &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans            &trans        &trans  &trans  &trans  &trans  &trans       &trans
-&trans  &trans                &trans             &trans           &trans            &trans        &trans  &trans  &trans  &trans  &bootloader  &trans
-                                                 &trans           &trans            &trans        &trans  &trans  &trans
-            >;
-        };
-
-        settings {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans       &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans       &trans
@@ -92,7 +82,17 @@
                         &trans  &trans  &trans    &trans  &trans  &trans
             >;
 
+            label = "function_layer";
+        };
+
+        settings {
             label = "settings_layer";
+            bindings = <
+&trans  &kp C_BRIGHTNESS_DEC  &kp C_BRI_UP       &kp C_PREV       &kp C_PLAY_PAUSE  &kp C_NEXT    &trans  &trans  &trans  &trans  &trans       &trans
+&trans  &kp C_MUTE            &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans            &trans        &trans  &trans  &trans  &trans  &trans       &trans
+&trans  &trans                &trans             &trans           &trans            &trans        &trans  &trans  &trans  &trans  &bootloader  &trans
+                                                 &trans           &trans            &trans        &trans  &trans  &trans
+            >;
         };
     };
 };
