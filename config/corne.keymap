@@ -24,6 +24,11 @@
             bindings = <&mo 3>;
             key-positions = <39 40>;
         };
+
+        scroll_control {
+            bindings = <&kp LEFT_CONTROL>;
+            key-positions = <38 37>;
+        };
     };
 
     keymap {
@@ -60,10 +65,10 @@
 
         ext {
             bindings = <
-&trans  &kp ESCAPE  &trans  &trans            &trans    &trans      &trans     &trans         &trans  &trans     &kp BACKSPACE  &trans
-&trans  &trans      &trans  &sk LCTRL         &sk LALT  &sk LGUI    &kp LEFT   &kp DOWN       &kp UP  &kp RIGHT  &kp TAB        &trans
-&trans  &trans      &trans  &kp LEFT_CONTROL  &trans    &trans      &trans     &kp LS(ENTER)  &trans  &trans     &trans         &trans
-                            &trans            &trans    &trans      &kp ENTER  &trans         &trans
+&trans  &kp ESCAPE  &trans  &trans     &trans    &trans      &trans     &trans         &trans  &trans     &kp BACKSPACE  &trans
+&trans  &trans      &trans  &sk LCTRL  &sk LALT  &sk LGUI    &kp LEFT   &kp DOWN       &kp UP  &kp RIGHT  &kp TAB        &trans
+&trans  &trans      &trans  &trans     &trans    &trans      &trans     &trans         &trans  &trans     &trans         &trans
+                            &trans     &trans    &trans      &kp ENTER  &kp LS(ENTER)  &trans
             >;
 
             label = "extend_layer";
