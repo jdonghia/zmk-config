@@ -80,16 +80,16 @@
             display-name = "symbols_layer";
             bindings = <
 &trans  &kp NUMBER_1   &HML LEFT_CONTROL N2  &HML LEFT_ALT N3  &HML LEFT_COMMAND N4  &kp N5    &kp N6         &HMR RIGHT_COMMAND N7  &HMR LEFT_ALT N8  &HMR LEFT_CONTROL N9  &kp N0             &trans
-&trans  &kp SEMICOLON  &trans  &trans  &kp GRAVE  &trans    &trans         &trans     &trans     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
-&trans  &trans         &trans  &trans  &trans     &trans    &kp BACKSLASH  &kp MINUS  &kp EQUAL  &trans            &trans             &trans
-                               &trans  &trans     &trans    &trans         &trans     &trans
+&trans  &kp SEMICOLON  &trans                &trans            &kp GRAVE             &trans    &trans         &trans                 &trans            &kp LEFT_BRACKET      &kp RIGHT_BRACKET  &trans
+&trans  &trans         &trans                &trans            &trans                &trans    &kp BACKSLASH  &kp MINUS              &kp EQUAL         &trans                &trans             &trans
+                                             &trans            &trans                &trans    &trans         &trans                 &trans
             >;
         };
 
         ext {
             bindings = <
 &trans  &kp ESCAPE  &trans  &trans  &trans  &trans    &trans     &trans    &trans  &trans     &kp BACKSPACE  &trans
-&trans  &trans      &trans  &trans  &trans  &trans    &kp LEFT   &kp DOWN  &kp UP  &kp RIGHT  &kp TAB        &trans
+&trans  &kp TAB     &trans  &trans  &trans  &trans    &kp LEFT   &kp DOWN  &kp UP  &kp RIGHT  &trans         &trans
 &trans  &trans      &trans  &trans  &trans  &trans    &trans     &trans    &trans  &trans     &trans         &trans
                             &trans  &trans  &trans    &kp ENTER  &trans    &trans
             >;
