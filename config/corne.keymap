@@ -7,8 +7,8 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 
-#define HOLD_TAP_TAPPING_TERM 200
-#define HOLD_TAP_QUICK_TAP 150
+#define HOLD_TAP_TAPPING_TERM 280
+#define HOLD_TAP_QUICK_TAP 175
 #define PRIOR_IDLE_MS 150
 
 / {
@@ -22,11 +22,12 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <100>;
-            hold-while-undecided;
+            flavor = "balanced";
+            tapping-term-ms = <HOLD_TAP_TAPPING_TERM>;
+            quick-tap-ms = <HOLD_TAP_QUICK_TAP>;
+            require-prior-idle-ms = <PRIOR_IDLE_MS>;
             hold-trigger-key-positions = <1 2 3 4 5 13 25 14 26 15 27 16 28 29 17 38 37>;
             hold-trigger-on-release;
-            flavor = "tap-preferred";
         };
 
         HML: HML {
@@ -35,11 +36,12 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <100>;
+            flavor = "balanced";
+            tapping-term-ms = <HOLD_TAP_TAPPING_TERM>;
+            quick-tap-ms = <HOLD_TAP_QUICK_TAP>;
+            require-prior-idle-ms = <PRIOR_IDLE_MS>;
             hold-trigger-on-release;
-            hold-while-undecided;
             hold-trigger-key-positions = <39 40 6 18 30 31 19 7 8 20 32 33 21 9 10 22 34>;
-            flavor = "tap-preferred";
         };
     };
 
