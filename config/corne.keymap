@@ -67,8 +67,8 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&trans  &kp Q  &kp W                &kp E            &kp R                &kp T             &kp Y      &kp U                 &kp I            &kp O                &kp P             &trans
-&trans  &kp A  &HML LEFT_CONTROL S  &HML LEFT_ALT D  &HML LEFT_COMMAND F  &kp G             &kp H      &HMR RIGHT_COMMAND J  &HMR LEFT_ALT K  &HMR LEFT_CONTROL L  &kp SINGLE_QUOTE  &trans
+&trans  &kp Q  &HML LEFT_CONTROL W  &HML LEFT_ALT E  &HML LEFT_COMMAND R  &kp T             &kp Y      &HMR RIGHT_COMMAND U  &HMR LEFT_ALT I  &HMR LEFT_CONTROL O  &kp P             &trans
+&trans  &kp A  &kp S                &kp D            &kp F                &kp G             &kp H      &kp J                 &kp K            &kp L                &kp SINGLE_QUOTE  &trans
 &trans  &kp Z  &kp X                &kp C            &kp V                &kp B             &kp N      &kp M                 &kp COMMA        &kp DOT              &kp SLASH         &trans
                                     &trans           &mo 2                &kp LEFT_SHIFT    &kp SPACE  &mo 1                 &trans
             >;
@@ -79,7 +79,7 @@
         sym {
             display-name = "symbols_layer";
             bindings = <
-&trans  &kp NUMBER_1   &kp N2  &kp N3  &kp N4     &kp N5    &kp N6         &kp N7     &kp N8     &kp N9            &kp N0             &trans
+&trans  &kp NUMBER_1   &HML LEFT_CONTROL N2  &HML LEFT_ALT N3  &HML LEFT_COMMAND N4  &kp N5    &kp N6         &HMR RIGHT_COMMAND N7  &HMR LEFT_ALT N8  &HMR LEFT_CONTROL N9  &kp N0             &trans
 &trans  &kp SEMICOLON  &trans  &trans  &kp GRAVE  &trans    &trans         &trans     &trans     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
 &trans  &trans         &trans  &trans  &trans     &trans    &kp BACKSLASH  &kp MINUS  &kp EQUAL  &trans            &trans             &trans
                                &trans  &trans     &trans    &trans         &trans     &trans
