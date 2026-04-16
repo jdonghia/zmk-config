@@ -50,11 +50,6 @@
             bindings = <&mo 3>;
             key-positions = <39 40>;
         };
-
-        scroll_control {
-            bindings = <&kp LEFT_CONTROL>;
-            key-positions = <38 37>;
-        };
     };
 
     keymap {
