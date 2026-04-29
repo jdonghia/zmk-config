@@ -15,34 +15,6 @@
     behaviors {
         // Left-hand HRMs
         // Right-hand HRMs
-
-        HMR: HMR {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HMR";
-            bindings = <&kp>, <&kp>;
-
-            #binding-cells = <2>;
-            flavor = "balanced";
-            tapping-term-ms = <HOLD_TAP_TAPPING_TERM>;
-            quick-tap-ms = <HOLD_TAP_QUICK_TAP>;
-            require-prior-idle-ms = <PRIOR_IDLE_MS>;
-            hold-trigger-key-positions = <1 2 3 4 5 13 25 14 26 15 27 16 28 29 17 38 37>;
-            hold-trigger-on-release;
-        };
-
-        HML: HML {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HML";
-            bindings = <&kp>, <&kp>;
-
-            #binding-cells = <2>;
-            flavor = "balanced";
-            tapping-term-ms = <HOLD_TAP_TAPPING_TERM>;
-            quick-tap-ms = <HOLD_TAP_QUICK_TAP>;
-            require-prior-idle-ms = <PRIOR_IDLE_MS>;
-            hold-trigger-on-release;
-            hold-trigger-key-positions = <39 40 6 18 30 31 19 7 8 20 32 33 21 9 10 22 34>;
-        };
     };
 
     combos {
