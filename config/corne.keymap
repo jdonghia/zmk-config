@@ -55,32 +55,32 @@
 
         lctrl {
             bindings = <&kp LEFT_CONTROL>;
-            key-positions = <1 2>;
+            key-positions = <13 14>;
         };
 
         lalt {
             bindings = <&kp LEFT_ALT>;
-            key-positions = <3 2>;
+            key-positions = <14 15>;
         };
 
         lcmd {
             bindings = <&kp LEFT_COMMAND>;
-            key-positions = <4 3>;
+            key-positions = <15 16>;
         };
 
         rctrl {
             bindings = <&kp LEFT_CONTROL>;
-            key-positions = <10 9>;
+            key-positions = <21 22>;
         };
 
         ralt {
             bindings = <&kp LEFT_ALT>;
-            key-positions = <9 8>;
+            key-positions = <20 21>;
         };
 
         rcmd {
             bindings = <&kp LEFT_COMMAND>;
-            key-positions = <8 7>;
+            key-positions = <19 20>;
         };
     };
 
