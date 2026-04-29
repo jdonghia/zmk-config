@@ -29,42 +29,42 @@
 
         lctrl {
             bindings = <&kp LEFT_CONTROL>;
-            key-positions = <13 14>;
+            key-positions = <1 2>;
             timeout-ms = <50>;
             require-prior-idle-ms = <PRIOR_IDLE_MS>;
         };
 
         lalt {
             bindings = <&kp LEFT_ALT>;
-            key-positions = <14 15>;
+            key-positions = <2 3>;
             timeout-ms = <50>;
             require-prior-idle-ms = <PRIOR_IDLE_MS>;
         };
 
         lcmd {
             bindings = <&kp LEFT_COMMAND>;
-            key-positions = <15 16>;
+            key-positions = <3 4>;
             timeout-ms = <50>;
             require-prior-idle-ms = <PRIOR_IDLE_MS>;
         };
 
         rctrl {
             bindings = <&kp LEFT_CONTROL>;
-            key-positions = <21 22>;
+            key-positions = <9 10>;
             timeout-ms = <50>;
             require-prior-idle-ms = <PRIOR_IDLE_MS>;
         };
 
         ralt {
             bindings = <&kp LEFT_ALT>;
-            key-positions = <20 21>;
+            key-positions = <8 9>;
             timeout-ms = <50>;
             require-prior-idle-ms = <PRIOR_IDLE_MS>;
         };
 
         rcmd {
             bindings = <&kp LEFT_COMMAND>;
-            key-positions = <19 20>;
+            key-positions = <7 8>;
             timeout-ms = <50>;
             require-prior-idle-ms = <PRIOR_IDLE_MS>;
         };
