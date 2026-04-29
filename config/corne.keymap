@@ -23,36 +23,50 @@
         settings_layer {
             bindings = <&mo 3>;
             key-positions = <39 40>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <PRIOR_IDLE_MS>;
         };
 
         lctrl {
             bindings = <&kp LEFT_CONTROL>;
             key-positions = <13 14>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <PRIOR_IDLE_MS>;
         };
 
         lalt {
             bindings = <&kp LEFT_ALT>;
             key-positions = <14 15>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <PRIOR_IDLE_MS>;
         };
 
         lcmd {
             bindings = <&kp LEFT_COMMAND>;
             key-positions = <15 16>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <PRIOR_IDLE_MS>;
         };
 
         rctrl {
             bindings = <&kp LEFT_CONTROL>;
             key-positions = <21 22>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <PRIOR_IDLE_MS>;
         };
 
         ralt {
             bindings = <&kp LEFT_ALT>;
             key-positions = <20 21>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <PRIOR_IDLE_MS>;
         };
 
         rcmd {
             bindings = <&kp LEFT_COMMAND>;
             key-positions = <19 20>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <PRIOR_IDLE_MS>;
         };
     };
 
